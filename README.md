@@ -234,15 +234,12 @@ The project was adapted and extended with the following modifications:
 
 ## 📚 Acknowledgments
 
-This project is based on and adapted from the:
+This project is based on and adapted from the following open-source projects:
 
-**[Mobile Robot Project by Articulated Robotics](https://articulatedrobotics.xyz/tutorials/mobile-robot/project-overview)**
+- [Articulated Robotics – Mobile Robot Project](https://github.com/joshnewans/articubot_one)
+- [Articulated Robotics – Mobile Robot Tutorials](https://articulatedrobotics.xyz/tutorials/mobile-robot/project-overview)
 
-The original project provided the foundation for the mobile robot simulation.
-
-This version was adapted for **ROS 2 Humble** and extended with autonomous patrolling, yellow ball detection, ball-following behavior, and state-based behavior switching.
-
-The original project structure and core concepts are credited to **Articulated Robotics**.
+The project was adapted for ROS 2 Humble and extended with autonomous patrolling, yellow ball detection, ball-following behavior, and state-based behavior switching.
 
 ---
 
