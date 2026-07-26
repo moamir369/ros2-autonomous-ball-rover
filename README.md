@@ -200,6 +200,28 @@ source install/setup.bash
 ```
 
 ---
+## 📦 Dependencies
+
+Install the required ROS 2 packages:
+
+```bash
+sudo apt update
+
+sudo apt install -y \
+  ros-humble-gazebo-ros-pkgs \
+  ros-humble-gazebo-ros2-control \
+  ros-humble-xacro \
+  ros-humble-joint-state-publisher-gui \
+  ros-humble-image-transport-plugins \
+  ros-humble-rqt-image-view \
+  ros-humble-ros2-control \
+  ros-humble-ros2-controllers \
+  ros-humble-slam-toolbox \
+  ros-humble-navigation2 \
+  ros-humble-nav2-bringup
+```
+
+---
 
 ## ▶️ Run the Project
 
