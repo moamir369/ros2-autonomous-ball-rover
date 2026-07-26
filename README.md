@@ -14,7 +14,7 @@
 
 ![Autonomous Ball Rover](media/hero.png)
 
-**ROS 2 Autonomous Ball Rover** is an adapted and extended mobile robot simulation based on the mobile robot project by [Articulated Robotics](https://articulatedrobotics.xyz/tutorials/mobile-robot/project-overview).
+**ROS 2 Autonomous Ball Rover** is an adapted and extended mobile robot simulation based on the mobile robot project by [Articulated Robotics](https://github.com/joshnewans/articubot_one).
 
 The robot autonomously patrols a simulated environment using **Nav2**. While patrolling, it searches for a yellow ball using computer vision. When the ball is detected, the robot switches to ball-following mode. Once the ball is lost, the robot automatically resumes autonomous patrolling.
 
