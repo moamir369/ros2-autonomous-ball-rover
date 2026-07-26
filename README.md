@@ -237,10 +237,9 @@ The project was adapted and extended with the following modifications:
 This project is based on and adapted from the following open-source projects:
 
 - [Articulated Robotics – Mobile Robot Project](https://github.com/joshnewans/articubot_one)
-- [Articulated Robotics – Mobile Robot Tutorials](https://articulatedrobotics.xyz/tutorials/mobile-robot/project-overview)
+- [ROS 2 Ball Tracker](https://github.com/joshnewans/ball_tracker)
 
 The project was adapted for ROS 2 Humble and extended with autonomous patrolling, yellow ball detection, ball-following behavior, and state-based behavior switching.
-
 ---
 
 ## 👨‍💻 Author
