@@ -1,0 +1,222 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+
+<world name="house">
+
+  <include>
+    <uri>model://sun</uri>
+  </include>
+
+  <include>
+    <uri>model://ground_plane</uri>
+  </include>
+
+
+  <model name="wall_right">
+    <static>true</static>
+    <pose>4 0 1 0 0 0</pose>
+
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box><size>0.2 8 2</size></box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <box><size>0.2 8 2</size></box>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+
+  <model name="wall_left">
+    <static>true</static>
+    <pose>-4 0 1 0 0 0</pose>
+
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box><size>0.2 8 2</size></box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <box><size>0.2 8 2</size></box>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+
+  <model name="wall_top">
+    <static>true</static>
+    <pose>0 4 1 0 0 1.5708</pose>
+
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box><size>0.2 8 2</size></box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <box><size>0.2 8 2</size></box>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+
+  <model name="wall_bottom">
+    <static>true</static>
+    <pose>0 -4 1 0 0 1.5708</pose>
+
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box><size>0.2 8 2</size></box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <box><size>0.2 8 2</size></box>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+
+
+
+  <model name="inner_wall1">
+    <static>true</static>
+    <pose>1.5 1.5 1 0 0 1.5708</pose>
+
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box><size>0.2 4 2</size></box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <box><size>0.2 4 2</size></box>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+
+  <model name="inner_wall2">
+    <static>true</static>
+    <pose>-1.5 -1 1 0 0 0</pose>
+
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box><size>0.2 3 2</size></box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <box><size>0.2 3 2</size></box>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+
+
+
+  <model name="box1">
+    <static>true</static>
+    <pose>2 -2 0.25 0 0 0</pose>
+
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box><size>0.5 0.5 0.5</size></box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <box><size>0.5 0.5 0.5</size></box>
+        </geometry>
+
+        <material>
+          <ambient>0.8 0.2 0.2 1</ambient>
+          <diffuse>0.8 0.2 0.2 1</diffuse>
+        </material>
+
+      </visual>
+    </link>
+  </model>
+
+  <model name="box2">
+    <static>true</static>
+    <pose>-2 2 0.4 0 0 0</pose>
+
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box><size>0.8 0.8 0.8</size></box>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <box><size>0.8 0.8 0.8</size></box>
+        </geometry>
+
+        <material>
+          <ambient>0.2 0.2 0.8 1</ambient>
+          <diffuse>0.2 0.2 0.8 1</diffuse>
+        </material>
+
+      </visual>
+    </link>
+  </model>
+
+
+  <model name="cylinder">
+
+    <static>true</static>
+
+    <pose>0 2 0.5 0 0 0</pose>
+
+    <link name="link">
+
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.3</radius>
+            <length>1</length>
+          </cylinder>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.3</radius>
+            <length>1</length>
+          </cylinder>
+        </geometry>
+
+        <material>
+          <ambient>0.2 0.8 0.2 1</ambient>
+          <diffuse>0.2 0.8 0.2 1</diffuse>
+        </material>
+
+      </visual>
+
+    </link>
+
+  </model>
+
+</world>
+
+</sdf>
